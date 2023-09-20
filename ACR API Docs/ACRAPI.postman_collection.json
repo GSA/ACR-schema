@@ -15,12 +15,10 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/vendor/<vendor id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/vendor/<vendor id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -37,12 +35,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/vendor/<vendor id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/vendor/<vendor id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -59,12 +55,10 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/product/<product id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/product/<product id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -81,12 +75,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/product/<product id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/product/<product id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -103,12 +95,10 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/hyperlink/<hyperlink id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/hyperlink/<hyperlink id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -125,12 +115,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/admin/hyperlink/<hyperlink id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/admin/hyperlink/<hyperlink id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"admin",
@@ -152,12 +140,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/vendor?id=&name=",
-							"protocol": "http",
+							"raw": "{{url}}/api/vendor?id=&name=",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"vendor"
@@ -182,12 +168,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/vendor/all",
-							"protocol": "http",
+							"raw": "{{url}}/api/vendor/all",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"vendor",
@@ -212,12 +196,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/vendor",
-							"protocol": "http",
+							"raw": "{{url}}/api/vendor",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"vendor"
@@ -232,12 +214,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/vendor/<insert id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/vendor/<insert id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"vendor",
@@ -262,12 +242,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/vendor/<vendor id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/vendor/<vendor id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"vendor",
@@ -288,12 +266,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/product?id=&name=",
-							"protocol": "http",
+							"raw": "{{url}}/api/product?id=&name=",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"product"
@@ -318,12 +294,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/product/all",
-							"protocol": "http",
+							"raw": "{{url}}/api/product/all",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"product",
@@ -348,12 +322,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/product",
-							"protocol": "http",
+							"raw": "{{url}}/api/product",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"product"
@@ -368,12 +340,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/product/<insert id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/product/<insert id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"product",
@@ -398,12 +368,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/product/<product id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/product/<product id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"product",
@@ -424,12 +392,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/hyperlink?id=&name=",
-							"protocol": "http",
+							"raw": "{{url}}/api/hyperlink?id=&name=",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"hyperlink"
@@ -454,12 +420,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/hyperlink/all",
-							"protocol": "http",
+							"raw": "{{url}}/api/hyperlink/all",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"hyperlink",
@@ -484,12 +448,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/hyperlink",
-							"protocol": "http",
+							"raw": "{{url}}/api/hyperlink",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"hyperlink"
@@ -504,12 +466,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/hyperlink/<hyperlink id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/hyperlink/<hyperlink id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"hyperlink",
@@ -534,49 +494,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/hyperlink/<hyperlink id>",
-							"protocol": "http",
+							"raw": "{{url}}/api/hyperlink/<hyperlink id>",
 							"host": [
-								"localhost"
+								"{{url}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
 								"hyperlink",
 								"<hyperlink id>"
-							]
-						}
-					},
-					"response": []
-				}
-			]
-		},
-		{
-			"name": "Developer",
-			"item": [
-				{
-					"name": "Decode Token",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:5000/api/Auth/decodeToken",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "5000",
-							"path": [
-								"api",
-								"Auth",
-								"decodeToken"
-							],
-							"query": [
-								{
-									"key": "token",
-									"value": "",
-									"disabled": true
-								}
 							]
 						}
 					},
@@ -589,9 +514,34 @@
 		"type": "oauth2",
 		"oauth2": [
 			{
-				"key": "clientId",
-				"value": "",
+				"key": "clientSecret",
+				"value": "{{secret}}",
 				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{clientId}}",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{tokenUrl}}",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "{{authUrl}}",
+				"type": "string"
+			},
+			{
+				"key": "redirect_uri",
+				"value": "{{callbackUri}}",
+				"type": "string"
+			},
+			{
+				"key": "useBrowser",
+				"value": false,
+				"type": "boolean"
 			},
 			{
 				"key": "tokenType",
@@ -606,26 +556,6 @@
 			{
 				"key": "client_authentication",
 				"value": "body",
-				"type": "string"
-			},
-			{
-				"key": "clientSecret",
-				"value": "",
-				"type": "string"
-			},
-			{
-				"key": "accessTokenUrl",
-				"value": "http://dev-itcollect-oauth.itdb.boozallencsn.com/oauth/token",
-				"type": "string"
-			},
-			{
-				"key": "authUrl",
-				"value": "http://dev-itcollect-oauth.itdb.boozallencsn.com/oauth/authorize",
-				"type": "string"
-			},
-			{
-				"key": "redirect_uri",
-				"value": "http://localhost:5000/api/docs",
 				"type": "string"
 			},
 			{
